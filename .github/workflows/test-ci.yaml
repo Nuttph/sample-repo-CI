@@ -20,3 +20,9 @@ jobs:
       
       - name: Run tests
         run: npm test
+
+      - name: Check node version
+        run: node -v
+
+      - name: Check npm version
+        run: npm -v
